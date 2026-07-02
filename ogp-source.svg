@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f5e9"/>
+      <stop offset="1" stop-color="#c8e6c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="40" y="40" width="1120" height="550" rx="32" fill="#ffffff" opacity="0.92"/>
+
+  <!-- 肉球（左上） -->
+  <g fill="#2d6a4f" opacity="0.15" transform="translate(120,120) scale(1.6)">
+    <ellipse cx="0" cy="18" rx="26" ry="22"/>
+    <ellipse cx="-28" cy="-12" rx="11" ry="14"/>
+    <ellipse cx="-9" cy="-24" rx="11" ry="14"/>
+    <ellipse cx="12" cy="-24" rx="11" ry="14"/>
+    <ellipse cx="30" cy="-12" rx="11" ry="14"/>
+  </g>
+  <!-- 肉球（右下） -->
+  <g fill="#2d6a4f" opacity="0.12" transform="translate(1060,500) scale(2.2) rotate(-20)">
+    <ellipse cx="0" cy="18" rx="26" ry="22"/>
+    <ellipse cx="-28" cy="-12" rx="11" ry="14"/>
+    <ellipse cx="-9" cy="-24" rx="11" ry="14"/>
+    <ellipse cx="12" cy="-24" rx="11" ry="14"/>
+    <ellipse cx="30" cy="-12" rx="11" ry="14"/>
+  </g>
+
+  <text x="600" y="280" font-family="Yu Gothic, Meiryo, sans-serif" font-size="86" font-weight="bold" fill="#2d6a4f" text-anchor="middle">ペット防災チェック</text>
+  <text x="600" y="380" font-family="Yu Gothic, Meiryo, sans-serif" font-size="40" fill="#555555" text-anchor="middle">23問でわかる、あなたとペットの備え</text>
+
+  <rect x="400" y="440" width="400" height="70" rx="35" fill="#2d6a4f"/>
+  <text x="600" y="487" font-family="Yu Gothic, Meiryo, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">診断スタート！</text>
+
+  <text x="600" y="565" font-family="Yu Gothic, Meiryo, sans-serif" font-size="26" fill="#888888" text-anchor="middle">大分県版 ｜ なた海岸動物病院</text>
+</svg>

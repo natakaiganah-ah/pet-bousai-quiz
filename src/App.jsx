@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 
 const questions = [
   { id: 1, category: "健康管理", priority: "S", points: 8, headline: "動物病院に今すぐ相談を！", question: "ワクチン接種・寄生虫の予防・駆除を定期的に行っていますか？", praise: "素晴らしい！感染症予防はペットの命を守る最重要ケアです🎉", advice: "ワクチンや寄生虫予防は、避難所での集団感染リスクを大幅に下げます。かかりつけ動物病院に今すぐ相談を！" },
@@ -109,7 +109,7 @@ export default function App() {
     }));
 
     return (
-      <div style={{ minHeight:"100vh", background:"linear-gradient(135deg,#e8f5e9 0%,#f1f8e9 100%)", padding:"20px", fontFamily:"'Helvetica Neue',Arial,sans-serif" }}>
+      <div style={{ minHeight:"100vh", background:"linear-gradient(135deg,#e8f5e9 0%,#f1f8e9 100%)", padding:"20px", fontFamily:"'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP','Helvetica Neue',Arial,sans-serif" }}>
         <div style={{ maxWidth:600, margin:"0 auto" }}>
           <div style={{ background:"white", borderRadius:20, padding:28, boxShadow:"0 8px 32px rgba(0,0,0,0.12)", textAlign:"center" }}>
             <div style={{ fontSize:44, marginBottom:6 }}>🐾</div>
@@ -203,7 +203,7 @@ export default function App() {
 
   // ===== 問題画面 =====
   return (
-    <div style={{ minHeight:"100vh", background:"linear-gradient(135deg,#e8f5e9 0%,#f1f8e9 100%)", padding:"20px", fontFamily:"'Helvetica Neue',Arial,sans-serif" }}>
+    <div style={{ minHeight:"100vh", background:"linear-gradient(135deg,#e8f5e9 0%,#f1f8e9 100%)", padding:"20px", fontFamily:"'Hiragino Sans','Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP','Helvetica Neue',Arial,sans-serif" }}>
       <div style={{ maxWidth:600, margin:"0 auto" }}>
 
         {/* ヘッダー */}
@@ -231,10 +231,13 @@ export default function App() {
             <div style={{
               display: "inline-flex",
               alignItems: "center",
+              justifyContent: "center",
+              flexWrap: "wrap",
               gap: 8,
+              maxWidth: "100%",
               background: priorityBg[q.priority],
               border: `2px solid ${priorityColor[q.priority]}`,
-              borderRadius: 99,
+              borderRadius: 20,
               padding: "7px 18px",
             }}>
               <span style={{ fontSize:18 }}>{priorityIcon[q.priority]}</span>
